@@ -1,0 +1,9 @@
+<h1>SchoolClasses#edit</h1>
+<p>Find me in app/views/school_classes/edit.html.erb</p>
+<%= form_for @school_class do |s| %>
+  <%= s.label :title %>
+  <%= s.text_field :title %>
+  <%= s.label :room_number %>
+  <%= s.number_field :room_number %>
+  <%= s.submit %>
+<% end %>
